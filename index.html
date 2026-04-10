@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sage Mini Movers Durban | Affordable Small Moves, Junk Removal & Transport</title>
+  <meta name="description" content="Sage Mini Movers – Durban's trusted small move specialists. Small offices, apartments, granny flats, student residences, partial moves, garden refuse & junk removal. Call Grant: 072 322 0507." />
+  <meta name="keywords" content="mini movers Durban, small moves Durban, affordable movers, apartment movers, student moves, granny flat movers, junk removal Durban, garden refuse Durban, partial moves, 1.3 ton truck" />
+  <meta name="author" content="Sage Mini Movers PTY LTD" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.sageminimovers.co.za/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sage Mini Movers Durban | Small Moves Made Easy" />
+  <meta property="og:description" content="Affordable, reliable small moves in Durban. Apartments, offices, granny flats, student residences, junk removal & more. Per-load rates. Call 072 322 0507." />
+  <meta property="og:url" content="https://www.sageminimovers.co.za/" />
+  <meta property="og:image" content="info.svg" />
+  <meta property="og:locale" content="en_ZA" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sage Mini Movers Durban | Small Moves Made Easy" />
+  <meta name="twitter:description" content="Affordable small moves in Durban – apartments, offices, junk removal. Call Grant: 072 322 0507." />
+  <meta name="twitter:image" content="info.svg" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Favicon (inline SVG via data URI) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%232e7d32'/><text y='.9em' font-size='70' x='50%' dominant-baseline='auto' text-anchor='middle' fill='white'>🚛</text></svg>" />
+
+  <style>
+    /* =========================================================
+       CSS RESET & CUSTOM PROPERTIES
+    ========================================================= */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:           #0d1117;
+      --bg-card:      #161b22;
+      --bg-card2:     #1c2128;
+      --green:        #2ea043;
+      --green-light:  #3fb950;
+      --green-dark:   #1a6b2a;
+      --green-glow:   rgba(46,160,67,0.18);
+      --white:        #f0f6fc;
+      --muted:        #8b949e;
+      --border:       #30363d;
+      --radius:       12px;
+      --radius-lg:    20px;
+      --transition:   0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --font:         'Poppins', sans-serif;
+      --shadow:       0 4px 24px rgba(0,0,0,0.4);
+      --shadow-green: 0 4px 24px rgba(46,160,67,0.3);
+    }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--white);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    ul { list-style: none; }
+    button { cursor: pointer; font-family: var(--font); border: none; outline: none; }
+
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .section-tag {
+      display: inline-block;
+      background: var(--green-glow);
+      color: var(--green-light);
+      border: 1px solid rgba(46,160,67,0.35);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.9rem;
+      border-radius: 50px;
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .section-title span { color: var(--green-light); }
+
+    .section-sub {
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 560px;
+    }
+
+    .section-header { text-align: center; margin-bottom: 3.5rem; }
+    .section-header .section-sub { margin: 0 auto; }
+
+    section { padding: 5.5rem 0; }
+
+    /* fade-in animation (driven by JS IntersectionObserver) */
+    .reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.65s var(--transition), transform 0.65s var(--transition);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+
+    /* =========================================================
+       NAVBAR
+    ========================================================= */
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(13,17,23,0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid transparent;
+      transition: border-color var(--transition), background var(--transition);
+    }
+    #navbar.scrolled {
+      background: rgba(13,17,23,0.97);
+      border-bottom-color: var(--border);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-weight: 800;
+      font-size: 1.25rem;
+      letter-spacing: -0.01em;
+      color: var(--white);
+    }
+    .nav-logo .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--green);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+    .nav-logo .logo-sage { color: var(--green-light); }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+    .nav-links a {
+      padding: 0.45rem 0.85rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--muted);
+      transition: color var(--transition), background var(--transition);
+    }
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--white);
+      background: var(--bg-card);
+    }
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.65rem 1.4rem;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all var(--transition);
+    }
+    .btn-green {
+      background: var(--green);
+      color: #fff;
+    }
+    .btn-green:hover {
+      background: var(--green-light);
+      box-shadow: var(--shadow-green);
+      transform: translateY(-1px);
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border: 1px solid var(--border);
+    }
+    .btn-outline:hover {
+      border-color: var(--green);
+      color: var(--green-light);
+      background: var(--green-glow);
+    }
+    .btn-lg {
+      padding: 0.9rem 2rem;
+      font-size: 1rem;
+      border-radius: var(--radius-lg);
+    }
+    .btn-xl {
+      padding: 1.1rem 2.4rem;
+      font-size: 1.05rem;
+      border-radius: var(--radius-lg);
+    }
+
+    /* Hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      padding: 6px;
+      border-radius: 8px;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: all var(--transition);
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Mobile Nav Drawer */
+    .mobile-nav {
+      display: none;
+      flex-direction: column;
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+      padding: 1rem 1.5rem 1.5rem;
+      gap: 0.25rem;
+    }
+    .mobile-nav a {
+      padding: 0.75rem 1rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--muted);
+      border-radius: var(--radius);
+      transition: all var(--transition);
+    }
+    .mobile-nav a:hover { color: var(--white); background: var(--bg-card2); }
+    .mobile-nav .btn-green {
+      margin-top: 0.75rem;
+      justify-content: center;
+      text-align: center;
+    }
+    .mobile-nav.open { display: flex; }
+
+    /* =========================================================
+       HERO
+    ========================================================= */
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      padding: 6rem 0 4rem;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% -10%, rgba(46,160,67,0.18) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 50% at 75% 80%, rgba(46,160,67,0.09) 0%, transparent 60%),
+        var(--bg);
+    }
+
+    /* Animated grid */
+    .hero-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(46,160,67,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(46,160,67,0.05) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 100%);
+      -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 100%);
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--green-glow);
+      border: 1px solid rgba(46,160,67,0.4);
+      color: var(--green-light);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.4rem 1rem;
+      border-radius: 50px;
+      margin-bottom: 1.5rem;
+    }
+    .hero-badge i { font-size: 0.85rem; }
+
+    .hero-title {
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+    .hero-title .accent { color: var(--green-light); }
+
+    .hero-desc {
+      color: var(--muted);
+      font-size: 1.1rem;
+      max-width: 480px;
+      margin-bottom: 2.25rem;
+      line-height: 1.75;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .hero-stat {
+      display: flex;
+      flex-direction: column;
+    }
+    .hero-stat .stat-val {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--green-light);
+      line-height: 1;
+    }
+    .hero-stat .stat-lbl {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 500;
+      margin-top: 0.2rem;
+    }
+
+    /* Hero image side */
+    .hero-image-wrap {
+      position: relative;
+    }
+    .hero-image-card {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow), 0 0 60px rgba(46,160,67,0.12);
+    }
+    .hero-image-card img {
+      width: 100%;
+      object-fit: cover;
+    }
+    .hero-callout {
+      position: absolute;
+      bottom: -1rem;
+      left: -1.5rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.85rem 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      box-shadow: var(--shadow);
+    }
+    .hero-callout .callout-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--green-glow);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--green-light);
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .hero-callout .callout-text .top {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1;
+    }
+    .hero-callout .callout-text .bot {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+    .hero-callout2 {
+      position: absolute;
+      top: -1rem;
+      right: -1rem;
+      background: var(--green);
+      color: #fff;
+      border-radius: var(--radius);
+      padding: 0.75rem 1.1rem;
+      text-align: center;
+      box-shadow: var(--shadow-green);
+    }
+    .hero-callout2 .c2-val { font-size: 1.4rem; font-weight: 800; line-height: 1; }
+    .hero-callout2 .c2-lbl { font-size: 0.7rem; font-weight: 600; margin-top: 0.15rem; }
+
+    /* =========================================================
+       SERVICES
+    ========================================================= */
+    #services { background: var(--bg-card); }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .service-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem 1.5rem;
+      transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+      cursor: default;
+    }
+    .service-card:hover {
+      border-color: var(--green);
+      transform: translateY(-4px);
+      box-shadow: 0 8px 32px rgba(46,160,67,0.15);
+    }
+    .service-icon {
+      width: 52px;
+      height: 52px;
+      background: var(--green-glow);
+      border: 1px solid rgba(46,160,67,0.3);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--green-light);
+      font-size: 1.3rem;
+      margin-bottom: 1.2rem;
+      transition: background var(--transition), box-shadow var(--transition);
+    }
+    .service-card:hover .service-icon {
+      background: rgba(46,160,67,0.28);
+      box-shadow: 0 0 20px rgba(46,160,67,0.25);
+    }
+    .service-card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .service-card p {
+      font-size: 0.875rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* =========================================================
+       ABOUT / WHY US
+    ========================================================= */
+    #about .about-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .about-image-wrap { position: relative; }
+    .about-image-card {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+    .about-image-card img { width: 100%; }
+
+
+
+    .about-content .section-sub { margin-bottom: 2rem; }
+
+    .perks-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .perk {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+    .perk-icon {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      background: var(--green-glow);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--green-light);
+      font-size: 0.9rem;
+    }
+    .perk h4 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.15rem; }
+    .perk p { font-size: 0.8rem; color: var(--muted); }
+
+    .truck-detail {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+    }
+    .truck-detail i { font-size: 1.5rem; color: var(--green-light); }
+    .truck-detail .td-text strong { display: block; font-size: 0.95rem; }
+    .truck-detail .td-text span { font-size: 0.82rem; color: var(--muted); }
+
+    /* =========================================================
+       HOW IT WORKS
+    ========================================================= */
+    #how { background: var(--bg-card); }
+
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      position: relative;
+    }
+
+    /* connector line between steps */
+    .steps-grid::before {
+      content: '';
+      position: absolute;
+      top: 38px;
+      left: calc(16.67% + 24px);
+      right: calc(16.67% + 24px);
+      height: 2px;
+      background: linear-gradient(90deg, var(--green) 0%, var(--green-light) 50%, var(--green) 100%);
+      opacity: 0.35;
+    }
+
+    .step-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      position: relative;
+      transition: border-color var(--transition), transform var(--transition);
+    }
+    .step-card:hover {
+      border-color: var(--green);
+      transform: translateY(-4px);
+    }
+    .step-num {
+      width: 56px;
+      height: 56px;
+      background: var(--green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #fff;
+      margin: 0 auto 1.25rem;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 0 0 6px rgba(46,160,67,0.15);
+    }
+    .step-card h3 { font-size: 1.05rem; font-weight: 600; margin-bottom: 0.5rem; }
+    .step-card p { font-size: 0.875rem; color: var(--muted); }
+
+    /* =========================================================
+       TESTIMONIALS
+    ========================================================= */
+    #testimonials .testi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .testi-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      transition: border-color var(--transition);
+    }
+    .testi-card:hover { border-color: rgba(46,160,67,0.45); }
+
+    .testi-stars {
+      display: flex;
+      gap: 3px;
+      margin-bottom: 1rem;
+      color: #f4c542;
+      font-size: 0.9rem;
+    }
+    .testi-card blockquote {
+      font-size: 0.95rem;
+      color: var(--muted);
+      line-height: 1.75;
+      margin-bottom: 1.25rem;
+      font-style: italic;
+    }
+    .testi-author {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .testi-avatar {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1rem;
+      flex-shrink: 0;
+      color: #fff;
+    }
+    .testi-author .author-name { font-size: 0.9rem; font-weight: 600; }
+    .testi-author .author-loc { font-size: 0.78rem; color: var(--muted); }
+
+    /* =========================================================
+       SERVICE AREA
+    ========================================================= */
+    #area {
+      background: var(--bg-card);
+      text-align: center;
+    }
+
+    .area-visual {
+      position: relative;
+      display: inline-block;
+      margin: 0 auto 3rem;
+    }
+    .area-pulse {
+      width: 180px;
+      height: 180px;
+      background: var(--green-glow);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--green-light);
+      font-size: 3.5rem;
+      margin: 0 auto;
+      border: 1px solid rgba(46,160,67,0.3);
+      animation: pulse-ring 2.5s ease infinite;
+    }
+    @keyframes pulse-ring {
+      0%   { box-shadow: 0 0 0 0 rgba(46,160,67,0.35); }
+      70%  { box-shadow: 0 0 0 28px rgba(46,160,67,0); }
+      100% { box-shadow: 0 0 0 0 rgba(46,160,67,0); }
+    }
+
+    .area-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .area-chip {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 50px;
+      padding: 0.45rem 1rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--muted);
+      transition: border-color var(--transition), color var(--transition);
+    }
+    .area-chip i { color: var(--green-light); font-size: 0.8rem; }
+    .area-chip:hover { border-color: var(--green); color: var(--white); }
+
+    /* =========================================================
+       CONTACT
+    ========================================================= */
+    #contact .contact-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    .contact-info h3 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .contact-info > p {
+      color: var(--muted);
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+    }
+
+    .contact-items { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem; }
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .ci-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--green-glow);
+      border: 1px solid rgba(46,160,67,0.3);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--green-light);
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .ci-text .ci-label { font-size: 0.75rem; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.15rem; }
+    .ci-text .ci-value { font-size: 0.95rem; font-weight: 500; }
+    .ci-text .ci-value a { transition: color var(--transition); }
+    .ci-text .ci-value a:hover { color: var(--green-light); }
+
+    .social-row {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 0.5rem;
+    }
+    .social-link {
+      width: 44px;
+      height: 44px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.05rem;
+      color: var(--muted);
+      transition: all var(--transition);
+    }
+    .social-link:hover {
+      border-color: var(--green);
+      color: var(--green-light);
+      background: var(--green-glow);
+      transform: translateY(-2px);
+    }
+    .social-link[aria-label="TikTok"]:hover { color: #fff; }
+    .social-link[aria-label="YouTube"]:hover { color: #ff3c3c; border-color: #ff3c3c; }
+    .social-link[aria-label="Facebook"]:hover { color: #5b9cf6; border-color: #5b9cf6; }
+    .social-link[aria-label="Instagram"]:hover { color: #e1306c; border-color: #e1306c; }
+
+    /* Contact CTA card */
+    .contact-cta-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem 2rem;
+      text-align: center;
+    }
+    .contact-cta-card .icon-wrap {
+      width: 72px;
+      height: 72px;
+      background: var(--green-glow);
+      border: 1px solid rgba(46,160,67,0.35);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      color: var(--green-light);
+      margin: 0 auto 1.5rem;
+    }
+    .contact-cta-card h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 0.6rem; }
+    .contact-cta-card p { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.75rem; }
+    .cta-number {
+      font-size: 1.9rem;
+      font-weight: 800;
+      color: var(--green-light);
+      display: block;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.02em;
+    }
+    .contact-cta-card .btn-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .btn-whatsapp {
+      background: #25d366;
+      color: #fff;
+      font-size: 1rem;
+    }
+    .btn-whatsapp:hover {
+      background: #1db954;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.35);
+      transform: translateY(-1px);
+    }
+    .btn-call { background: var(--bg-card2); color: var(--white); border: 1px solid var(--border); font-size: 1rem; }
+    .btn-call:hover { border-color: var(--green); color: var(--green-light); }
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+    footer {
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 2rem;
+    }
+
+    .footer-inner {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2rem;
+    }
+
+    .footer-brand .nav-logo { margin-bottom: 1rem; font-size: 1.1rem; }
+    .footer-brand p { color: var(--muted); font-size: 0.875rem; max-width: 280px; line-height: 1.7; }
+    .footer-brand .social-row { margin-top: 1.25rem; }
+
+    .footer-col h4 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 1rem; }
+    .footer-col ul { display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col ul li a { font-size: 0.875rem; color: var(--muted); transition: color var(--transition); }
+    .footer-col ul li a:hover { color: var(--green-light); }
+
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-bottom p { font-size: 0.8rem; color: var(--muted); }
+    .footer-bottom a { color: var(--green-light); }
+    .footer-reg { font-size: 0.78rem; color: var(--border); }
+
+    /* =========================================================
+       FLOATING WHATSAPP
+    ========================================================= */
+    .float-wa {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      gap: 0;
+      background: #25d366;
+      border-radius: 50px;
+      box-shadow: 0 4px 24px rgba(37,211,102,0.45);
+      overflow: hidden;
+      transition: all var(--transition);
+    }
+    .float-wa .wa-icon {
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: #fff;
+      flex-shrink: 0;
+    }
+    .float-wa .wa-label {
+      max-width: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #fff;
+      transition: max-width 0.4s var(--transition), padding 0.4s var(--transition);
+      padding: 0;
+    }
+    .float-wa:hover .wa-label {
+      max-width: 160px;
+      padding-right: 1.1rem;
+    }
+    .float-wa:hover {
+      box-shadow: 0 6px 32px rgba(37,211,102,0.55);
+    }
+    .float-wa-pulse {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      border-radius: 50px;
+      background: rgba(255,255,255,0.2);
+      animation: wa-pulse 2s ease infinite;
+    }
+    @keyframes wa-pulse {
+      0%   { opacity: 1; transform: scale(1); }
+      100% { opacity: 0; transform: scale(1.35); }
+    }
+
+    /* =========================================================
+       SCROLL TO TOP
+    ========================================================= */
+    .scroll-top {
+      position: fixed;
+      bottom: 6.5rem;
+      right: 2rem;
+      z-index: 998;
+      width: 44px;
+      height: 44px;
+      background: var(--bg-card2);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 1rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: all var(--transition);
+    }
+    .scroll-top.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .scroll-top:hover { border-color: var(--green); color: var(--green-light); }
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+    @media (max-width: 1024px) {
+      .hero-inner { grid-template-columns: 1fr; }
+      .hero-image-wrap { display: none; }
+      .hero-title { font-size: clamp(2rem, 6vw, 3.2rem); }
+
+      #about .about-inner { grid-template-columns: 1fr; }
+      .about-image-wrap { display: none; }
+
+      #contact .contact-inner { grid-template-columns: 1fr; }
+
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+      .footer-brand { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 768px) {
+      section { padding: 4rem 0; }
+
+      .nav-links, .nav-cta { display: none; }
+      .hamburger { display: flex; }
+
+      .hero-stats { gap: 1.5rem; }
+
+      .steps-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+      .steps-grid::before { display: none; }
+
+      .perks-grid { grid-template-columns: 1fr; }
+
+      .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+
+      .float-wa { bottom: 1.25rem; right: 1.25rem; }
+      .scroll-top { bottom: 5.5rem; right: 1.25rem; }
+    }
+
+    @media (max-width: 480px) {
+      .hero-actions { flex-direction: column; }
+      .hero-actions .btn { justify-content: center; text-align: center; width: 100%; }
+      .testi-grid { grid-template-columns: 1fr; }
+      .contact-cta-card { padding: 1.75rem 1.25rem; }
+      .cta-number { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ============================================================
+     NAVBAR
+============================================================ -->
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Sage Mini Movers home">
+        <span class="logo-icon" aria-hidden="true"><i class="fa-solid fa-truck-moving"></i></span>
+        <span><span class="logo-sage">Sage</span> Mini Movers</span>
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="tel:0723220507" class="btn btn-outline" aria-label="Call us">
+          <i class="fa-solid fa-phone" aria-hidden="true"></i> 072 322 0507
+        </a>
+        <a href="https://wa.me/27723220507?text=Hi%20Grant%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20a%20move." class="btn btn-green" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp us">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp
+        </a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="mobile-nav" id="mobileNav" role="menu">
+      <a href="#services" role="menuitem">Services</a>
+      <a href="#about" role="menuitem">About</a>
+      <a href="#how" role="menuitem">How It Works</a>
+      <a href="#testimonials" role="menuitem">Reviews</a>
+      <a href="#area" role="menuitem">Service Area</a>
+      <a href="#contact" role="menuitem">Contact</a>
+      <a href="tel:0723220507" class="btn btn-outline" style="margin-top:0.75rem;text-align:center;justify-content:center;"><i class="fa-solid fa-phone"></i> 072 322 0507</a>
+      <a href="https://wa.me/27723220507?text=Hi%20Grant%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20a%20move." class="btn btn-green" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp Us Now</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<main>
+<section id="hero" aria-label="Hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content reveal">
+        <div class="hero-badge">
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Durban &amp; Surroundings
+        </div>
+        <h1 class="hero-title">
+          Small Moves<br><span class="accent">Made Easy.</span>
+        </h1>
+        <p class="hero-desc">
+          Affordable, reliable mini-moves across Durban. Whether you're moving a single item or your entire apartment, we've got you covered — per-load rates, no hidden fees.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/27723220507?text=Hi%20Grant%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20a%20move." class="btn btn-green btn-xl" target="_blank" rel="noopener noreferrer" aria-label="Get a free quote on WhatsApp">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Get a Free Quote
+          </a>
+          <a href="tel:0723220507" class="btn btn-outline btn-xl" aria-label="Call Grant">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i> Call Grant
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="stat-val">1.3T</span>
+            <span class="stat-lbl">Truck Capacity</span>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-val">100%</span>
+            <span class="stat-lbl">Per-Load Rates</span>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-val">8+</span>
+            <span class="stat-lbl">Services Offered</span>
+          </div>
+          <div class="hero-stat">
+            <span class="stat-val">DBN</span>
+            <span class="stat-lbl">Durban Based</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap reveal reveal-delay-2">
+        <div class="hero-image-card">
+          <img src="info.svg" alt="Sage Mini Movers 1.3-ton truck – small moves made easy in Durban" loading="eager" />
+        </div>
+        <div class="hero-callout" aria-hidden="true">
+          <div class="callout-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="callout-text">
+            <div class="top">Safe &amp; Secure</div>
+            <div class="bot">Ratchets, hooks &amp; cargo ties</div>
+          </div>
+        </div>
+        <div class="hero-callout2" aria-hidden="true">
+          <div class="c2-val">Per</div>
+          <div class="c2-lbl">Load Rates</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVICES
+============================================================ -->
+<section id="services" aria-labelledby="services-heading">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-tag reveal">What We Move</div>
+      <h2 class="section-title reveal reveal-delay-1" id="services-heading">Our <span>Services</span></h2>
+      <p class="section-sub reveal reveal-delay-2">From a single item to a full apartment – if it fits our 1.3-ton truck, we'll move it affordably.</p>
+    </header>
+
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-building"></i></div>
+        <h3>Small Offices</h3>
+        <p>Relocating your small office or home office? We handle desks, equipment and furniture carefully.</p>
+      </article>
+      <article class="service-card reveal reveal-delay-1">
+        <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-door-open"></i></div>
+        <h3>Small Apartments</h3>
+        <p>Moving flats or apartments in Durban made stress-free. We pack it in, transport it safely.</p>
+      </article>
+      <article class="service-card reveal reveal-delay-2">
+        <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-house"></i></div>
+        <h3>Granny Flats</h3>
+        <p>Downsizing or moving to a granny flat? We specialise in space-efficient moves.</p>
+      </article>
+      <article class="service-card reveal reveal-delay-3">
+        <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3>Student Residences</h3>
+        <p>Start-of-year or end-of-year student moves. Quick, affordable and hassle-free.</p>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-boxes-stacked"></i></div>
+        <h3>Partial Moves</h3>
+        <p>Only moving some items? No problem — you only pay for what we move.</p>
+      </article>
+      <article class="service-card reveal reveal-delay-1">
+        <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-couch"></i></div>
+        <h3>Single Items</h3>
+        <p>Need to move just a fridge, washing machine or sofa? We've got you covered.</p>
+      </article>
+      <article class="service-card reveal reveal-delay-2">
+        <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-leaf"></i></div>
+        <h3>Garden Refuse</h3>
+        <p>Tree cuttings, garden waste and outdoor rubbish cleared and hauled away fast.</p>
+      </article>
+      <article class="service-card reveal reveal-delay-3">
+        <div class="service-icon" aria-hidden="true"><i class="fa-solid fa-trash-can"></i></div>
+        <h3>Junk Removal</h3>
+        <p>Clearing out old furniture, appliances or clutter? One call and it's gone.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT / WHY US
+============================================================ -->
+<section id="about" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-inner">
+      <div class="about-image-wrap reveal">
+        <div class="about-image-card">
+          <img src="info.svg" alt="Sage Mini Movers – Grant and the team ready to move you in Durban North"  loading="lazy" />
+        </div>
+        
+      </div>
+
+      <div class="about-content">
+        <div class="section-tag reveal">Why Choose Us</div>
+        <h2 class="section-title reveal reveal-delay-1" id="about-heading">Durban's <span>Most Trusted</span> Mini Mover</h2>
+        <p class="section-sub reveal reveal-delay-2">
+          Sage Mini Movers is a locally owned and operated business based in Durban North. We pride ourselves on honest, per-load pricing — no surprise bills, just great service.
+        </p>
+
+        <div class="perks-grid reveal reveal-delay-3">
+          <div class="perk">
+            <div class="perk-icon" aria-hidden="true"><i class="fa-solid fa-tag"></i></div>
+            <div>
+              <h4>Per-Load Rates</h4>
+              <p>Transparent pricing. Pay for what you move — nothing more.</p>
+            </div>
+          </div>
+          <div class="perk">
+            <div class="perk-icon" aria-hidden="true"><i class="fa-solid fa-bolt"></i></div>
+            <div>
+              <h4>Fast &amp; Efficient</h4>
+              <p>We show up on time and get the job done quickly.</p>
+            </div>
+          </div>
+          <div class="perk">
+            <div class="perk-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+            <div>
+              <h4>Fully Secured</h4>
+              <p>Ratchets, hooks &amp; cargo ties keep everything in place.</p>
+            </div>
+          </div>
+          <div class="perk">
+            <div class="perk-icon" aria-hidden="true"><i class="fa-solid fa-handshake"></i></div>
+            <div>
+              <h4>Friendly Service</h4>
+              <p>We treat your belongings like our own — every time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="truck-detail reveal reveal-delay-4">
+          <i class="fa-solid fa-truck-moving" aria-hidden="true"></i>
+          <div class="td-text">
+            <strong>1.3-Ton Truck — Ratchets, Hooks &amp; Cargo Ties Included</strong>
+            <span>Perfect for small offices, apartments, student residences &amp; more.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     HOW IT WORKS
+============================================================ -->
+<section id="how" aria-labelledby="how-heading">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-tag reveal">Simple Process</div>
+      <h2 class="section-title reveal reveal-delay-1" id="how-heading">How It <span>Works</span></h2>
+      <p class="section-sub reveal reveal-delay-2">Getting moved is as easy as 1-2-3. No complicated bookings, no fuss.</p>
+    </header>
+
+    <div class="steps-grid">
+      <div class="step-card reveal">
+        <div class="step-num" aria-hidden="true">1</div>
+        <h3>Contact Grant</h3>
+        <p>Reach out via WhatsApp or phone. Tell us what you need moved and where — quick and easy.</p>
+      </div>
+      <div class="step-card reveal reveal-delay-2">
+        <div class="step-num" aria-hidden="true">2</div>
+        <h3>Get Your Quote</h3>
+        <p>We provide a fair, transparent per-load quote with no hidden costs. Know exactly what you're paying.</p>
+      </div>
+      <div class="step-card reveal reveal-delay-4">
+        <div class="step-num" aria-hidden="true">3</div>
+        <h3>We Move You</h3>
+        <p>Sit back and relax. Our team arrives on time, loads up, and delivers your goods safely.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TESTIMONIALS
+============================================================ -->
+<section id="testimonials" aria-labelledby="testi-heading">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-tag reveal">Customer Reviews</div>
+      <h2 class="section-title reveal reveal-delay-1" id="testi-heading">What Our <span>Clients Say</span></h2>
+      <p class="section-sub reveal reveal-delay-2">Don't just take our word for it — hear from people we've helped move across Durban.</p>
+    </header>
+
+    <div class="testi-grid">
+      <article class="testi-card reveal">
+        <div class="testi-stars" aria-label="5 out of 5 stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <blockquote>"Grant and his team were absolutely incredible. They moved my entire granny flat in just a few hours. Super professional, fast, and the rates were unbeatable. Will definitely call again!"</blockquote>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background: #2ea043;" aria-hidden="true">S</div>
+          <div>
+            <div class="author-name">Sipho M.</div>
+            <div class="author-loc">Durban North</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testi-card reveal reveal-delay-2">
+        <div class="testi-stars" aria-label="5 out of 5 stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <blockquote>"Used Sage Mini Movers for my student flat move at the end of the year. They were on time, friendly and careful with my stuff. Best mini mover in Durban without a doubt."</blockquote>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background: #1a6b2a;" aria-hidden="true">T</div>
+          <div>
+            <div class="author-name">Thandi K.</div>
+            <div class="author-loc">Westville, Durban</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testi-card reveal reveal-delay-4">
+        <div class="testi-stars" aria-label="5 out of 5 stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <blockquote>"Had a mountain of garden refuse to get rid of. One WhatsApp to Grant, same-day collection, and it was gone. Excellent service at a great price. Highly recommend!"</blockquote>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background: #3fb950;" aria-hidden="true">R</div>
+          <div>
+            <div class="author-name">Ravi P.</div>
+            <div class="author-loc">La Lucia, Durban</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVICE AREA
+============================================================ -->
+<section id="area" aria-labelledby="area-heading">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-tag reveal">Coverage</div>
+      <h2 class="section-title reveal reveal-delay-1" id="area-heading">Serving <span>Durban</span> &amp; Beyond</h2>
+      <p class="section-sub reveal reveal-delay-2">Based in Durban North, we cover the greater Durban metro and surrounding areas.</p>
+    </header>
+
+    <div class="area-visual reveal">
+      <div class="area-pulse" aria-hidden="true"><i class="fa-solid fa-map-location-dot"></i></div>
+    </div>
+
+    <div class="area-chips reveal reveal-delay-2">
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> Durban North</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> Umhlanga</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> Westville</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> Pinetown</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> Berea</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> La Lucia</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> Morningside</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> Musgrave</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> Ballito</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> Amanzimtoti</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i> Hillcrest</span>
+      <span class="area-chip"><i class="fa-solid fa-circle-dot"></i>&amp; More!</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+============================================================ -->
+<section id="contact" aria-labelledby="contact-heading">
+  <div class="container">
+    <header class="section-header">
+      <div class="section-tag reveal">Get In Touch</div>
+      <h2 class="section-title reveal reveal-delay-1" id="contact-heading">Ready to <span>Move?</span></h2>
+      <p class="section-sub reveal reveal-delay-2">Reach out today for a fast, no-obligation quote. WhatsApp is the quickest way to get us!</p>
+    </header>
+
+    <div class="contact-inner">
+      <div class="contact-info reveal">
+        <h3>Contact Details</h3>
+        <p>We're available 7 days a week. Drop us a message and we'll get back to you promptly.</p>
+
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-user"></i></div>
+            <div class="ci-text">
+              <div class="ci-label">Contact Person</div>
+              <div class="ci-value">Grant</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></div>
+            <div class="ci-text">
+              <div class="ci-label">Phone</div>
+              <div class="ci-value"><a href="tel:0723220507">072 322 0507</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="ci-text">
+              <div class="ci-label">WhatsApp</div>
+              <div class="ci-value"><a href="https://wa.me/27723220507?text=Hi%20Grant%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20a%20move." target="_blank" rel="noopener noreferrer">+27 72 322 0507</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="ci-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="ci-text">
+              <div class="ci-label">Address</div>
+              <div class="ci-value">9 Fig Tree Rise St, Durban North, Durban, 4051</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p style="font-size:0.8rem;color:var(--muted);margin-bottom:0.6rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;">Follow Us</p>
+          <div class="social-row">
+            <a href="https://www.tiktok.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-cta-card reveal reveal-delay-2">
+        <div class="icon-wrap" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></div>
+        <h3>Chat With Us on WhatsApp</h3>
+        <p>The fastest way to get a quote. Message Grant directly and we'll respond quickly.</p>
+        <a href="tel:0723220507" class="cta-number" aria-label="Call 072 322 0507">072 322 0507</a>
+        <div class="btn-stack">
+          <a href="https://wa.me/27723220507?text=Hi%20Grant%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20a%20move." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat with Grant">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp Grant Now
+          </a>
+          <a href="tel:0723220507" class="btn btn-call btn-lg" aria-label="Call Grant on 072 322 0507">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i> Call 072 322 0507
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo" aria-label="Sage Mini Movers – back to top">
+          <span class="logo-icon" aria-hidden="true"><i class="fa-solid fa-truck-moving"></i></span>
+          <span><span class="logo-sage">Sage</span> Mini Movers</span>
+        </a>
+        <p>Affordable, reliable mini-moves in Durban &amp; surroundings. Small Offices, Apartments, Granny Flats, Student Residences, Single Items, Garden Refuse &amp; Junk Removal.</p>
+        <div class="social-row">
+          <a href="https://www.tiktok.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.youtube.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.facebook.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Small Offices</a></li>
+          <li><a href="#services">Small Apartments</a></li>
+          <li><a href="#services">Granny Flats</a></li>
+          <li><a href="#services">Student Residences</a></li>
+          <li><a href="#services">Partial Moves</a></li>
+          <li><a href="#services">Single Items</a></li>
+          <li><a href="#services">Garden Refuse</a></li>
+          <li><a href="#services">Junk Removal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#area">Service Area</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="tel:0723220507">072 322 0507</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 <a href="#hero">Sage Mini Movers PTY LTD</a>. All rights reserved. Based in Durban North, South Africa.</p>
+      <p class="footer-reg">Reg No: 2024/509688/07</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     FLOATING WHATSAPP BUTTON
+============================================================ -->
+<a href="https://wa.me/27723220507?text=Hi%20Grant%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20a%20move."
+   class="float-wa"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Open WhatsApp chat with Sage Mini Movers">
+  <span class="float-wa-pulse" aria-hidden="true"></span>
+  <span class="wa-icon" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></span>
+  <span class="wa-label">Chat with us</span>
+</a>
+
+<!-- Scroll-to-top button -->
+<button class="scroll-top" id="scrollTop" aria-label="Scroll back to top">
+  <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+</button>
+
+<!-- ============================================================
+     SCHEMA.ORG JSON-LD
+============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.sageminimovers.co.za/",
+  "name": "Sage Mini Movers PTY LTD",
+  "description": "Affordable small moves in Durban – small offices, apartments, granny flats, student residences, partial moves, single items, garden refuse and junk removal. Per-load rates.",
+  "url": "https://www.sageminimovers.co.za/",
+  "telephone": "+27723220507",
+  "image": "https://www.sageminimovers.co.za/info.svg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "9 Fig Tree Rise St",
+    "addressLocality": "Durban North",
+    "addressRegion": "KwaZulu-Natal",
+    "postalCode": "4051",
+    "addressCountry": "ZA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -29.7799,
+    "longitude": 31.0482
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "07:00",
+      "closes": "19:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.tiktok.com",
+    "https://www.youtube.com",
+    "https://www.facebook.com",
+    "https://www.instagram.com"
+  ],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": -29.7799,
+      "longitude": 31.0482
+    },
+    "geoRadius": "50000"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Mini Moving Services",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Small Office Moves"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Small Apartment Moves"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Granny Flat Moves"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Student Residence Moves"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Partial Moves"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Single Item Transport"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Garden Refuse Removal"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Junk Removal"}}
+    ]
+  },
+  "priceRange": "$$",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+27723220507",
+    "contactType": "customer service",
+    "contactOption": "TollFree",
+    "availableLanguage": ["English"]
+  }
+}
+</script>
+
+<!-- ============================================================
+     JAVASCRIPT
+============================================================ -->
+<script>
+(function () {
+  'use strict';
+
+  /* ---- Navbar scroll effect ---- */
+  var navbar = document.getElementById('navbar');
+  function onScroll() {
+    if (window.scrollY > 24) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+    updateScrollspy();
+    toggleScrollTop();
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  /* ---- Hamburger menu ---- */
+  var hamburger = document.getElementById('hamburger');
+  var mobileNav = document.getElementById('mobileNav');
+  hamburger.addEventListener('click', function () {
+    var isOpen = mobileNav.classList.toggle('open');
+    hamburger.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+
+  /* Close mobile nav when a link is clicked */
+  mobileNav.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      mobileNav.classList.remove('open');
+      hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  /* ---- Scrollspy: highlight active nav link ---- */
+  var sections = document.querySelectorAll('section[id]');
+  var navAnchors = document.querySelectorAll('.nav-links a');
+
+  function updateScrollspy() {
+    var scrollY = window.scrollY + 100;
+    var current = '';
+    sections.forEach(function (sec) {
+      if (sec.offsetTop <= scrollY) {
+        current = sec.getAttribute('id');
+      }
+    });
+    navAnchors.forEach(function (a) {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+  }
+
+  /* ---- Scroll-to-top button ---- */
+  var scrollTopBtn = document.getElementById('scrollTop');
+  function toggleScrollTop() {
+    scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+  }
+  scrollTopBtn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  /* ---- Reveal on scroll (IntersectionObserver) ---- */
+  var revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var revealObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    revealEls.forEach(function (el) {
+      revealObserver.observe(el);
+    });
+  } else {
+    /* Fallback: show all immediately for older browsers */
+    revealEls.forEach(function (el) { el.classList.add('visible'); });
+  }
+
+  /* ---- Smooth anchor scroll (catch all internal # links) ---- */
+  document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+    anchor.addEventListener('click', function (e) {
+      var targetId = this.getAttribute('href').slice(1);
+      var target = document.getElementById(targetId);
+      if (target) {
+        e.preventDefault();
+        var offset = 68; /* navbar height */
+        var top = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      }
+    });
+  });
+
+  /* Initial call */
+  onScroll();
+}());
+</script>
+
+</body>
+</html>
